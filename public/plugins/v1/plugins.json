@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    {
+      "id": "stl_importer",
+      "version": "1.0.0",
+      "api_version": 1,
+      "author": {
+        "name": "Chris ter Beke",
+        "email": "plugins@christerbeke.com"
+      },
+      "description": "A better STL importer.",
+      "website": "https://christerbeke.com/plugins/stl_importer"
+    }  
+  ]
+}
