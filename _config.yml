@@ -1,5 +1,8 @@
-title: Tailwind Jekyll Starter Kit
-description: A starter kit for using Tailwind with Jekyll
+title: christerbeke.com
+description: Bio and Portfolio of Chris ter Beke
+permalink: pretty
+
+include: ['_pages']
 
 exclude:
   - Gemfile
@@ -11,3 +14,9 @@ exclude:
   - README.md
   - src
   - tailwind.js
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      body_class: "default"
