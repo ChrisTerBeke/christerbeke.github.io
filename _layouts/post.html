@@ -1,8 +1,16 @@
----
----
-
 {% include header.html %}
 
-{{ content }}
+<div class="container px-4 mx-auto pt-4 content">
+	<div class="row">
+		<h1 class="text-grey-darkest leading-loose font-serif">{{ page.title }}</h1>
+		<p class="text-grey-dark leading-loose">
+			<strong>{{ page.date | date: "%B %e, %Y" }}</strong> .
+			{{ page.tags | join: ", " }}
+    	</p>
+	</div>
+	<div class="row">
+		<div class="text-black">{{ content }}</div>
+	</div>
+</div>
 
 {% include footer.html %}
