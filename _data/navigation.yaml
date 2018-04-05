@@ -1,0 +1,6 @@
+- label: Home
+  url: /
+- label: Articles
+  url: /articles
+- label: About
+  url: /about

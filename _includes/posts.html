@@ -1,0 +1,12 @@
+{% for post in site.posts %}
+	<article class="border-b">
+		<h2 class="font-serif leading-loose">
+			<a class="text-grey-darkest no-underline hover:underline" href="{{ post.url }}">{{ post.title }}</a>
+		</h2>
+		<p class="text-grey-dark leading-loose">
+			<strong>{{ post.date | date: "%B %e, %Y" }}</strong> .
+			{{ post.tags | join: ", " }}
+		</p>
+		<p>{{ post.excerpt }}</p>
+	</article>
+{% endfor %}

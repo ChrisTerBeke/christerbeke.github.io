@@ -1,16 +1,15 @@
 {% include header.html %}
 
 {% include alert.html
-  action = "New"
-  text = site.posts.first.title
-  link = site.posts.first.url
-  icon = "arrow-right"
+		action = "New"
+		text = site.posts.first.title
+		link = site.posts.first.url
 %}
 
-<div class="container px-4 mx-auto pt-4 content">
-	<div class="row">
-		<div>{{ content }}</div>
-	</div>
+{% include navigation.html %}
+
+<div class="container px-4 mx-auto pt-8 content">
+	{% include posts.html %}
 </div>
 
 {% include footer.html %}

@@ -2,6 +2,7 @@ title: christerbeke.com
 description: Bio and Portfolio of Chris ter Beke
 permalink: pretty
 
+excerpt_separator: <!--more-->
 markdown: kramdown
 highlighter: rouge
 
