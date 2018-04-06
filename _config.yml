@@ -24,3 +24,6 @@ defaults:
       path: ""
     values:
       body_class: "default"
+
+github:
+  repository_url: https://github.com/ChrisTerBeke/personal-website
