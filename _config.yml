@@ -11,13 +11,7 @@ include: ['_pages']
 exclude:
   - Gemfile
   - Gemfile.lock
-  - gulpfile.js
-  - node_modules
-  - package.json
-  - package-lock.json
   - README.md
-  - src
-  - tailwind.js
 
 github:
   repository_url: https://github.com/ChrisTerBeke/personal-website
