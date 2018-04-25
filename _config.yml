@@ -19,11 +19,5 @@ exclude:
   - src
   - tailwind.js
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      body_class: "default"
-
 github:
   repository_url: https://github.com/ChrisTerBeke/personal-website
