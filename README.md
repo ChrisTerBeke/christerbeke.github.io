@@ -1,2 +1,3 @@
 # Personal Website
-https://christerbeke.com
+
+Visit the website at [christerbeke.com](https://christerbeke.com).
